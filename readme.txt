@@ -6,6 +6,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Add client_secret.json and tokens.json into the webserver directory
+
+client_secret.json
+  {
+   "client_id": "Your Client Key",
+   "client_secret": "Your Client Secret"
+  } 
+
+tokens.json
+  {
+   "access_token": null,
+   "refresh_token": null
+  } 
 
 ## Code scaffolding
 
